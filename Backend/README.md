@@ -45,6 +45,13 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
+##Initializing Database
+$ Install Prisma - npm install prisma
+$ Initiaizing Prisma - npx prisma init
+$ Migrate Database - npx prisma migrate dev --name init
+$ Install Prisma CLient - npm install @prisma/client
+$ Generate Prisma Client - npx prisma generate
+
 ## Test
 
 ```bash
@@ -57,6 +64,7 @@ $ npm run test:e2e
 # test coverage
 $ npm run test:cov
 ```
+
 
 ## Support
 
