@@ -45,7 +45,8 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
-##Initializing Database
+## Initializing Database
+```bash
 $ Install Prisma - npm install prisma
 $ Initiaizing Prisma - npx prisma init
 $ Migrate Database - npx prisma migrate dev --name init
